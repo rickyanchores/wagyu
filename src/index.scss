@@ -2,13 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root{
+  background-color: black;
+}
 .App{
   background: black;
 }
 
 .Card{
+  width: 300px;
   img{
-    width: 200px;
+    width: 100%;
+  }
+}
+
+.About{
+  img{
+    width: 100%;
   }
 }
