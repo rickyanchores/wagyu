@@ -11,7 +11,7 @@ const About = () => {
                 <h3>WGYU</h3>
                 <h1>About us</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto totam suscipit cupiditate sed saepe vitae!</p>
-                <button className='btn bg-red-700 text-white p-4 rounded-md'>Menu</button>
+                <button className='btn bg-red-700 text-white p-4'>Menu</button>
             </div>
         </div>      
     </div>
