@@ -8,9 +8,13 @@ const About = () => {
                 <img src="https://images.unsplash.com/photo-1547637205-fde0c9011f9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHwzfHx3YWd5dXxlbnwwfHx8fDE3MTI2Njk0Mzl8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="img one" />
             </div>
             <div className="text-box text-2xl">
-                <h3>WGYU</h3>
-                <h1>About us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto totam suscipit cupiditate sed saepe vitae!</p>
+                <div className="title">
+                    <h1 className="text-5xl font-bold pb-4">WGYU</h1>
+                </div>
+                <div className="text pb-4">
+                    <p>At WGYU, we are dedicated to bringing you the freshest ingredients and the finest flavors, meticulously prepared to deliver an unforgettable dining experience. 
+                        Whether you're here for our signature Wagyu beef dishes, sushi, or any of our other delectable offerings, we strive to ensure every meal is a culinary masterpiece.</p>
+                </div>
                 <button className='btn bg-red-700 text-white p-4'>Menu</button>
             </div>
         </div>      
